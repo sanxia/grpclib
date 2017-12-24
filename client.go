@@ -32,8 +32,8 @@ type RpcClient struct {
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  * 实例化Rpc Client
- * host: 主机地址
- * port: 主机端口
+ * host       : 主机地址
+ * port       : 主机端口
  * credentials: SSL证书
  * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 func NewRpcClient(host string, port int, token string, args ...credentials.TransportCredentials) (*RpcClient, error) {
